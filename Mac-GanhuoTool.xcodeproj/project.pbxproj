@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96946B061B08A80B007CECEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96946B051B08A80B007CECEF /* AppDelegate.swift */; };
+		96946B081B08A80B007CECEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96946B071B08A80B007CECEF /* Images.xcassets */; };
+		96946B0B1B08A80B007CECEF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96946B091B08A80B007CECEF /* MainMenu.xib */; };
+		96946B171B08A80B007CECEF /* Mac_GanhuoToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96946B161B08A80B007CECEF /* Mac_GanhuoToolTests.swift */; };
+		96946B221B08A82F007CECEF /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96946B201B08A82F007CECEF /* UploadViewController.swift */; };
+		96946B231B08A82F007CECEF /* UploadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96946B211B08A82F007CECEF /* UploadViewController.xib */; };
+		96946B3A1B08AF45007CECEF /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96946B391B08AF45007CECEF /* AVOSCloud.framework */; };
+		96946B451B08B086007CECEF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96946B431B08B070007CECEF /* SystemConfiguration.framework */; };
+		96946B461B08B086007CECEF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96946B3B1B08AFE8007CECEF /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96946B111B08A80B007CECEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96946AF81B08A80B007CECEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96946AFF1B08A80B007CECEF;
+			remoteInfo = "Mac-GanhuoTool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96946B001B08A80B007CECEF /* Mac-GanhuoTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac-GanhuoTool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96946B041B08A80B007CECEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96946B051B08A80B007CECEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96946B071B08A80B007CECEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96946B0A1B08A80B007CECEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96946B101B08A80B007CECEF /* Mac-GanhuoToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac-GanhuoToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96946B151B08A80B007CECEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96946B161B08A80B007CECEF /* Mac_GanhuoToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac_GanhuoToolTests.swift; sourceTree = "<group>"; };
+		96946B201B08A82F007CECEF /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		96946B211B08A82F007CECEF /* UploadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadViewController.xib; sourceTree = "<group>"; };
+		96946B261B08AB01007CECEF /* Mac-GanhuoTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mac-GanhuoTool-Bridging-Header.h"; sourceTree = "<group>"; };
+		96946B391B08AF45007CECEF /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		96946B3B1B08AFE8007CECEF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		96946B431B08B070007CECEF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96946AFD1B08A80B007CECEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96946B451B08B086007CECEF /* SystemConfiguration.framework in Frameworks */,
+				96946B461B08B086007CECEF /* CoreLocation.framework in Frameworks */,
+				96946B3A1B08AF45007CECEF /* AVOSCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96946B0D1B08A80B007CECEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96946AF71B08A80B007CECEF = {
+			isa = PBXGroup;
+			children = (
+				96946B021B08A80B007CECEF /* Mac-GanhuoTool */,
+				96946B131B08A80B007CECEF /* Mac-GanhuoToolTests */,
+				96946B011B08A80B007CECEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96946B011B08A80B007CECEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96946B001B08A80B007CECEF /* Mac-GanhuoTool.app */,
+				96946B101B08A80B007CECEF /* Mac-GanhuoToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96946B021B08A80B007CECEF /* Mac-GanhuoTool */ = {
+			isa = PBXGroup;
+			children = (
+				96946B051B08A80B007CECEF /* AppDelegate.swift */,
+				96946B071B08A80B007CECEF /* Images.xcassets */,
+				96946B091B08A80B007CECEF /* MainMenu.xib */,
+				96946B201B08A82F007CECEF /* UploadViewController.swift */,
+				96946B211B08A82F007CECEF /* UploadViewController.xib */,
+				96946B031B08A80B007CECEF /* Supporting Files */,
+				96946B261B08AB01007CECEF /* Mac-GanhuoTool-Bridging-Header.h */,
+				96946B381B08AF36007CECEF /* Framework */,
+			);
+			path = "Mac-GanhuoTool";
+			sourceTree = "<group>";
+		};
+		96946B031B08A80B007CECEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96946B041B08A80B007CECEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96946B131B08A80B007CECEF /* Mac-GanhuoToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				96946B161B08A80B007CECEF /* Mac_GanhuoToolTests.swift */,
+				96946B141B08A80B007CECEF /* Supporting Files */,
+			);
+			path = "Mac-GanhuoToolTests";
+			sourceTree = "<group>";
+		};
+		96946B141B08A80B007CECEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96946B151B08A80B007CECEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96946B381B08AF36007CECEF /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				96946B431B08B070007CECEF /* SystemConfiguration.framework */,
+				96946B3B1B08AFE8007CECEF /* CoreLocation.framework */,
+				96946B391B08AF45007CECEF /* AVOSCloud.framework */,
+			);
+			path = Framework;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96946AFF1B08A80B007CECEF /* Mac-GanhuoTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96946B1A1B08A80B007CECEF /* Build configuration list for PBXNativeTarget "Mac-GanhuoTool" */;
+			buildPhases = (
+				96946AFC1B08A80B007CECEF /* Sources */,
+				96946AFD1B08A80B007CECEF /* Frameworks */,
+				96946AFE1B08A80B007CECEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mac-GanhuoTool";
+			productName = "Mac-GanhuoTool";
+			productReference = 96946B001B08A80B007CECEF /* Mac-GanhuoTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96946B0F1B08A80B007CECEF /* Mac-GanhuoToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96946B1D1B08A80B007CECEF /* Build configuration list for PBXNativeTarget "Mac-GanhuoToolTests" */;
+			buildPhases = (
+				96946B0C1B08A80B007CECEF /* Sources */,
+				96946B0D1B08A80B007CECEF /* Frameworks */,
+				96946B0E1B08A80B007CECEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96946B121B08A80B007CECEF /* PBXTargetDependency */,
+			);
+			name = "Mac-GanhuoToolTests";
+			productName = "Mac-GanhuoToolTests";
+			productReference = 96946B101B08A80B007CECEF /* Mac-GanhuoToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96946AF81B08A80B007CECEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = why;
+				TargetAttributes = {
+					96946AFF1B08A80B007CECEF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					96946B0F1B08A80B007CECEF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 96946AFF1B08A80B007CECEF;
+					};
+				};
+			};
+			buildConfigurationList = 96946AFB1B08A80B007CECEF /* Build configuration list for PBXProject "Mac-GanhuoTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96946AF71B08A80B007CECEF;
+			productRefGroup = 96946B011B08A80B007CECEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96946AFF1B08A80B007CECEF /* Mac-GanhuoTool */,
+				96946B0F1B08A80B007CECEF /* Mac-GanhuoToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96946AFE1B08A80B007CECEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96946B081B08A80B007CECEF /* Images.xcassets in Resources */,
+				96946B231B08A82F007CECEF /* UploadViewController.xib in Resources */,
+				96946B0B1B08A80B007CECEF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96946B0E1B08A80B007CECEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96946AFC1B08A80B007CECEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96946B061B08A80B007CECEF /* AppDelegate.swift in Sources */,
+				96946B221B08A82F007CECEF /* UploadViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96946B0C1B08A80B007CECEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96946B171B08A80B007CECEF /* Mac_GanhuoToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96946B121B08A80B007CECEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96946AFF1B08A80B007CECEF /* Mac-GanhuoTool */;
+			targetProxy = 96946B111B08A80B007CECEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96946B091B08A80B007CECEF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96946B0A1B08A80B007CECEF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96946B181B08A80B007CECEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96946B191B08A80B007CECEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96946B1B1B08A80B007CECEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Mac-GanhuoTool",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = "Mac-GanhuoTool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mac-GanhuoTool/Mac-GanhuoTool-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96946B1C1B08A80B007CECEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Mac-GanhuoTool",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = "Mac-GanhuoTool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mac-GanhuoTool/Mac-GanhuoTool-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		96946B1E1B08A80B007CECEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mac-GanhuoToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mac-GanhuoTool.app/Contents/MacOS/Mac-GanhuoTool";
+			};
+			name = Debug;
+		};
+		96946B1F1B08A80B007CECEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mac-GanhuoToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mac-GanhuoTool.app/Contents/MacOS/Mac-GanhuoTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96946AFB1B08A80B007CECEF /* Build configuration list for PBXProject "Mac-GanhuoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96946B181B08A80B007CECEF /* Debug */,
+				96946B191B08A80B007CECEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96946B1A1B08A80B007CECEF /* Build configuration list for PBXNativeTarget "Mac-GanhuoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96946B1B1B08A80B007CECEF /* Debug */,
+				96946B1C1B08A80B007CECEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96946B1D1B08A80B007CECEF /* Build configuration list for PBXNativeTarget "Mac-GanhuoToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96946B1E1B08A80B007CECEF /* Debug */,
+				96946B1F1B08A80B007CECEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96946AF81B08A80B007CECEF /* Project object */;
+}
